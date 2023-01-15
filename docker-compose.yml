@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0.0
+    container_name: mysql8
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_TCP_PORT=3306
+    volumes:
+      - ./sqlvolume:/var/lib/mysql
+    restart: always
+    
+
+  php-project:
+    container_name: php-ING1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # environment:
+      # - MYSQL_DBHOST = localhost
+      # - MYSQL_DBPORT = 3306
+      # - MYSQL_DBUSER = root
+      # - MYSQL_DBPASS = 
+      # - MYSQL_DBNAME = dbusers
+    ports:
+      - 8080:80
+      - 8083:443
+    depends_on:
+      - mysql
+
+  php-admin:
+    depends_on:
+      - mysql
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    ports:
+      - 8081:80
+    environment:
+      - PMA_HOST=mysql
+      - PMA_PORT=3306
+    

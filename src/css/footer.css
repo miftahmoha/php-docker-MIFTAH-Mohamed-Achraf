@@ -1,0 +1,68 @@
+.footer {
+  position: relative;
+  width: 100vw;
+  height: 35vh;
+  overflow: hidden;
+}
+
+.footer-background {
+  position: absolute;
+  background: white;
+  height: 30vh;
+  width: 100vw;
+  top: 6.5vh;
+  margin-top: 2rem;
+}
+
+.footer-slope {
+  position: absolute;
+  background: white;
+  height: 10vh;
+  width: 110vw;
+  top: 4vh;
+  transform: rotate(-2deg);
+}
+
+.footer-text {
+  position: absolute;
+  width: 40%;
+  font-family: "Poppins";
+  font-weight: 100;
+  font-size: 4rem;
+  top: 4vh;
+  left: 10vh;
+  color: black;
+}
+
+.footer-categories {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  top: 28vh;
+  left: 10vh;
+}
+
+.footer-categories-text {
+  margin-right: 1.5rem;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-categories-text:hover {
+  color: grey;
+}
+
+.footer-text::first-letter {
+  font-size: 6rem;
+}
+.footer-subtext {
+  position: absolute;
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  color: black;
+  top: 8vh;
+  left: 75vw;
+}

@@ -1,0 +1,245 @@
+html {
+  color: white;
+  font-family: "Poppins";
+  font-size: 62.5%;
+}
+
+body {
+  background: black;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+h2 {
+  font-family: "Roboto Mono";
+  font-size: 1.6rem;
+  font-weight: 200;
+  height: 5vh;
+  margin: auto;
+  width: 90vw;
+}
+
+.category {
+  color: white;
+  font-size: 3rem;
+  font-weight: 200;
+  margin: 1rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.category:hover {
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.fa-paint-brush {
+  color: white;
+  font-size: 7rem;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+.fa-paint-brush:hover {
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.paint {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+.paint {
+  display: flex;
+  justify-content: flex-end;
+  height: 80vh;
+  width: 50vw;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  width: 30vw;
+}
+
+.paint-img {
+  height: 80vh;
+  width: 25vw;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 5rem;
+  transition: transform 0.15s;
+}
+
+.paint-img:hover {
+  transform: scale(1.2);
+  cursor: zoom-in;
+}
+
+.paint-text {
+  width: 30vw;
+  font-size: 2.25rem;
+}
+
+.order {
+  height: 8rem;
+  width: 50vw;
+}
+
+.price {
+  text-align: center;
+}
+
+.paint-input {
+  height: 2.5rem;
+  width: 3rem;
+  text-align: center;
+  outline: 0;
+  background: rgba(30, 33, 38);
+  border: 3px solid rgba(64, 65, 70);
+  color: white;
+  font-family: "Poppins";
+  margin: 10px;
+}
+
+.paint-set {
+  background: rgba(30, 33, 38);
+  border: 0;
+  border: 3px solid rgba(64, 65, 70);
+  color: white;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: 200;
+  height: 4.5rem;
+  margin: 10px;
+  outline: 0;
+  width: 3rem;
+}
+
+.paint-set:hover {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.paint-button {
+  background: rgba(30, 33, 38);
+  border: 0;
+  border: 3px solid rgba(64, 65, 70);
+  color: white;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: 200;
+  height: 4.5rem;
+  margin: 10px;
+  outline: 0;
+  width: 15rem;
+}
+
+.paint-button:hover {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.stockText-v {
+  text-align: center;
+  font-size: 1.8rem;
+  color: burlywood;
+}
+
+.stockText-r {
+  text-align: center;
+  font-size: 1.8rem;
+  color: red;
+}
+
+.footer {
+  position: relative;
+  width: 100vw;
+  height: 35vh;
+  overflow: hidden;
+}
+
+.footer-background {
+  position: absolute;
+  background: white;
+  height: 30vh;
+  width: 100vw;
+  top: 6.5vh;
+  margin-top: 2rem;
+}
+
+.footer-slope {
+  position: absolute;
+  background: white;
+  height: 10vh;
+  width: 110vw;
+  top: 4vh;
+  transform: rotate(-2deg);
+}
+
+.footer-text {
+  position: absolute;
+  width: 40%;
+  font-family: "Poppins";
+  font-weight: 100;
+  font-size: 4rem;
+  top: 4vh;
+  left: 10vh;
+  color: black;
+}
+
+.footer-categories {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  top: 28vh;
+  left: 10vh;
+}
+
+.footer-categories-text {
+  margin-right: 1.5rem;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-categories-text:hover {
+  color: grey;
+}
+
+.footer-text::first-letter {
+  font-size: 6rem;
+}
+.footer-subtext {
+  position: absolute;
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  color: black;
+  top: 8vh;
+  left: 75vw;
+}

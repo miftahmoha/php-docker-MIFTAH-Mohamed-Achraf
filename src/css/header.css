@@ -1,0 +1,61 @@
+html {
+  color: white;
+  font-family: "Poppins";
+  font-size: 62.5%;
+}
+
+body {
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-family: "Roboto Mono";
+  font-weight: 200;
+  margin: auto;
+  width: 90vw;
+  height: 8vh;
+}
+
+.category {
+  font-size: 3rem;
+  font-weight: 200;
+  margin: 1rem;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.category:hover {
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.fa-paint-brush {
+  font-size: 7rem;
+  margin-top: 0.5rem;
+  margin-right: auto;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-paint-brush:hover {
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.anc {
+  font-size: 2.2rem;
+  text-align: center;
+}

@@ -1,0 +1,115 @@
+.cart {
+  height: 100vh;
+  width: 100vw;
+  margin: 5rem;
+}
+.cart-background {
+  background: rgba(30, 33, 38);
+  border: 3px solid rgba(64, 65, 70);
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  width: 50vw;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cart-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: 60vh;
+}
+
+.cart-paint {
+  width: 20vw;
+  height: 58vh;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 3px solid rgba(64, 65, 70, 0.2);
+}
+
+.cart-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: 60vh;
+}
+
+.cart-text {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.cart-button {
+  background: rgba(30, 33, 38);
+  border: 0;
+  border: 3px solid rgba(64, 65, 70);
+  color: white;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: 200;
+  height: 5vh;
+  margin: 10px;
+  outline: 0;
+  width: 10vw;
+  margin-left: auto;
+}
+
+.cart-button:hover {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.warning {
+  font-size: 4rem;
+  text-align: center;
+  width: 50vw;
+  height: 50vh;
+  color: rgba(64, 65, 70);
+}
+
+.paint-input {
+  height: 2.5rem;
+  width: 3rem;
+  text-align: center;
+  outline: 0;
+  background: rgba(30, 33, 38);
+  border: 3px solid rgba(64, 65, 70);
+  color: white;
+  font-family: "Poppins";
+  margin: 10px;
+}
+
+.paint-set {
+  background: rgba(30, 33, 38);
+  border: 0;
+  border: 3px solid rgba(64, 65, 70);
+  color: white;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: 200;
+  height: 4.5rem;
+  margin: 10px;
+  outline: 0;
+  width: 3rem;
+}
+
+.paint-set:hover {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.adjust {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.regulate {
+  text-align: center;
+}

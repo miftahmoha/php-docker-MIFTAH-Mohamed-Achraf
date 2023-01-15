@@ -1,0 +1,86 @@
+.contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.form-text {
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.form-background {
+  align-items: center;
+  background: rgba(30, 33, 38);
+  border: 3px solid rgba(64, 65, 70);
+  color: rgba(64, 65, 70);
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+  width: 60vw;
+}
+
+h3 {
+  color: rgba(64, 65, 70);
+  font-size: 4rem;
+  font-weight: 300;
+  position: absolute;
+  top: 30vh;
+}
+
+.input {
+  background: rgba(30, 33, 38);
+  border: 0;
+  border-bottom: 3px solid rgba(64, 65, 70);
+  color: white;
+  font-family: "Roboto Mono";
+  margin: 10px;
+  outline: 0;
+}
+
+.email {
+  height: 3vh;
+  width: 15vw;
+}
+
+.object {
+  height: 3vh;
+  width: 25vw;
+}
+
+.message {
+  height: 20vh;
+  resize: none;
+  width: 25vw;
+}
+
+.button {
+  background: rgba(30, 33, 38);
+  border: 0;
+  border: 3px solid rgba(64, 65, 70);
+  color: white;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: 200;
+  height: 5vh;
+  margin: 10px;
+  outline: 0;
+  width: 10vw;
+}
+
+button:hover {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.error {
+  font-size: 1.5rem;
+  color: white;
+}
